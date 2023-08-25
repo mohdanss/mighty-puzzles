@@ -22,7 +22,6 @@ def isValidSubsequence(array, sequence):
         if array[ptrArray] == sequence[ptrSequence]:
             ptrSequence += 1
         ptrArray += 1 
-        print(ptrArray)
 
     return ptrSequence == len(sequence)
 
